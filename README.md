@@ -11,13 +11,13 @@ Este es un pequeño juego de consola en C# donde el usuario debe adivinar una et
 
 - Asegúrate de tener instalado .NET SDK.
 
-´´´
+```
 git clone https://github.com/LauraVargas22/EtiquetaOculta.git
 cd etiquetaOculta
 code .
 
 dotnet run
-´´´
+```
 
 ## 🎮 Mecánica del Juego
 1. El programa muestra una lista de etiquetas posibles.
