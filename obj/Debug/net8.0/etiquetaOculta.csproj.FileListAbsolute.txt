@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\bin\Debug\net8.0\etiquetaOculta.exe
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\bin\Debug\net8.0\etiquetaOculta.deps.json
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\bin\Debug\net8.0\etiquetaOculta.runtimeconfig.json
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\bin\Debug\net8.0\etiquetaOculta.dll
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\bin\Debug\net8.0\etiquetaOculta.pdb
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.sourcelink.json
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.dll
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\refint\etiquetaOculta.dll
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.pdb
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\etiquetaOculta.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\CAMPUSLANDS\EtiquetaOculta\obj\Debug\net8.0\ref\etiquetaOculta.dll
