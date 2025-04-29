@@ -6,6 +6,8 @@ internal class Program
 {
    private static void Main(string[] args)
    {
+        //Booleano para continuar
+        bool continuar = true;
        //Lista de Productos
        List<Producto> productos = new List<Producto>
        {
@@ -32,14 +34,49 @@ internal class Program
            ("Aspiradora LG", new List<string> {"", "Electrodomésticos", "Café"})
        };
 
+    do
+    {
+        Utilidades.EscribirCentrado("ADIVINA LA ETIQUETA");
+        
+        //Etiquetas disponibles
+        Console.WriteLine("\nEtiquetas Disponibles: ");
+        var etiqueta = productosConEtiquetas.SelectMany(p => p.Etiquetas).Distinct().ToList();
+        foreach (var e in etiqueta)
+            Console.WriteLine(e);
 
-      
-    Console.WriteLine("\nEtiquetas: ");
-    var etiquetas = productosConEtiquetas.SelectMany(p => p.Etiquetas).Distinct();
+        //Etiqueta Aleatoria
+        Random etiquetaRandom = new Random();
 
-    foreach (var etiqueta in etiquetas)
-        Console.WriteLine(etiqueta);
+        //Obtener index aleatorio
+        int index = etiquetaRandom.Next(etiqueta.Count);
+        string aleatoria = etiqueta[index]; //Convierte el index a string para ser comparado
 
-    
+        //Pedir al usuario la etiqueta
+        Console.WriteLine("Por favor, escoga una de las etiquetas: ");
+        string input = Console.ReadLine(); //Variable que almacena la entrada
+
+        //Validar la entrada sin importar mayúscula o minúscula
+        if (etiqueta.Contains(input, StringComparer.OrdinalIgnoreCase))
+        {
+            //Valida acertó en la selección
+            if (input == aleatoria)
+            {
+            Console.WriteLine($" 🎉 Felicidades, ha adivinado la etiqueta {input}");
+            }
+            else
+            {
+                Console.WriteLine($" ❌ Lo siento, no ha adivinado la etiqueta {aleatoria}");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"La etiqueta escrita no corresponde");
+            Console.Beep();
+        }
+
+        Console.WriteLine("¿Desea jugar nuevamente (S/N)");
+        continuar = Utilidades.LeerRespuesta();
+    } while (continuar);
+
    }
 }
